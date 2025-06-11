@@ -1,32 +1,257 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Rahul | DevOps Engineer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-900 text-white font-sans">
-  <div class="container mx-auto p-6">
-    <h1 class="text-4xl font-bold mb-4">👨‍💻 Rahul Kumar</h1>
-    <p class="text-lg mb-2">Senior DevOps Engineer | GCP | K8s | Terraform | Helm</p>
-    <p class="mb-4">Welcome to my professional portfolio</p>
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Rahul Kumar" />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Rahul Kumar, Rahul Kumar Sinha, Rahul Kumar DPS,
+        Rahul Kumar DPSRNC, Rahul Kumar DAV, Rahul Kumar MUZ, 
+        Rahul Kumar New Delhi, Rahul Kumar Bengaluru, Rahul Kumar JIO, Rahul Kumar Wipro,
+        Rahul Kumar PS, Rahul Kumar Publicis Sapient, Rahul Kumar DevOps, Rahul"
+    />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Rahul Kumar DevOps</title>
 
-    <h2 class="text-2xl font-semibold mt-6">🔧 Skills</h2>
-    <ul class="list-disc ml-6 mt-2">
-      <li>Terraform, GitHub Actions, Jenkins</li>
-      <li>Kubernetes (CKA Certified)</li>
-      <li>Prometheus, Grafana, Loki</li>
-      <li>Helm, ArgoCD, GitOps</li>
-      <li>GCP, AWS</li>
-    </ul>
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Font Awesome CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 
-    <h2 class="text-2xl font-semibold mt-6">📂 Projects</h2>
-    <p class="mt-2">Coming soon — will be loaded from GitHub repos</p>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-    <h2 class="text-2xl font-semibold mt-6">📞 Contact</h2>
-    <p>Email: rahul@example.com</p>
-    <p>GitHub: <a class="text-blue-400" href="https://github.com/rahul">github.com/rahul</a></p>
-  </div>
-</body>
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">Rahul Kumar</span>
+          <span class="site-description">DevOps Engineer • Programer • Architect</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/rahul-kumar-84518b186/">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/rahul-aws">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Résumé" target="_blank" href="assets/docs/Rahul_Kumar_DevOps-Resume.pdf">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:rahulk.0526@gmail.com" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>My Story</h1>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./assets/img/webp/Professional-Picture-Me.webp"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+          <img
+            src="./assets/img/jpg/Professional-Picture-Me.jpg"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+        </picture>
+        <p>
+          I am a Senior DevOps Engineer with over 5+ years of industry experience in automating, scaling, and securing cloud-native infrastructure. 
+          I hold certifications including the <strong> Certified Kubernetes Administrator (CKA) and AWS Certified Solutions Architect </strong>, and specialize in tools like Terraform, Helm, Docker, and Prometheus.
+          My work spans across infrastructure automation, CI/CD pipeline development, Kubernetes administration, and cloud operations on AWS and GCP. 
+          I am passionate about building reliable, observable, and secure DevOps systems, and I’m actively exploring opportunities to drive innovation in cloud engineering, platform reliability, and DevSecOps.
+        </p>
+      </div>
+      </section>
+      <!-- User Specifics -->
+      <section id="tech-stack">
+        <h2 class="user-projects">My Tech Stack</h2>
+      
+        <div class="tech-grid">
+          <!-- Cloud & Web Servers -->
+          <div class="tech-block">
+            <h3>Cloud Providers</h3>
+            <div class="icons">
+              <i class="devicon-amazonwebservices-plain-wordmark colored" title="AWS"></i>
+              <i class="devicon-googlecloud-plain-wordmark colored" title="GCP"></i>
+              
+            </div>
+          </div>
+          <!--  Containers & Orchestration -->
+          <div class="tech-block">
+            <h3>Containers & Orchestration</h3>
+            <div class="icons">
+              <i class="devicon-docker-plain colored" title="Docker"></i>
+              <i class="devicon-kubernetes-plain-wordmark colored" title="Kubernetes"></i>
+              <i class="devicon-helm-original colored" title="Helm"></i>
+            </div>
+          </div>
+      
+          <!-- Group 2: Languages & Scripting -->
+          <div class="tech-block">
+            <h3>Languages & Scripting</h3>
+            <div class="icons">
+              <i class="devicon-python-plain colored" title="Python"></i>
+              <i class="devicon-html5-plain colored" title="HTML5"></i>
+              <i class="devicon-css3-plain colored" title="CSS3"></i>
+              <i class="devicon-bash-plain colored" title="Shell Scripting"></i>
+            </div>
+          </div>
+      
+          <!-- Group 3: Operating Systems & Virtualization -->
+          <div class="tech-block">
+            <h3>Operating Systems & Virtualization</h3>
+            <div class="icons">
+              <i class="devicon-windows8-original colored" title="Windows"></i>
+              <i class="devicon-ubuntu-plain colored" title="Ubuntu"></i>
+              <i class="devicon-centos-plain-wordmark colored" title="CentOS"></i>
+              <i class="devicon-vsphere-line-wordmark  colored" title="VMware"></i>
+            </div>
+          </div>
+      
+          <!-- Group 4: Configuration & IaC -->
+          <div class="tech-block">
+            <h3>Configuration & IaC</h3>
+            <div class="icons">
+              <i class="devicon-ansible-plain colored" title="Ansible"></i>
+              <i class="devicon-terraform-plain colored" title="Terraform"></i>
+            </div>
+          </div>
+      
+          
+      
+          <!--  CI/CD & Monitoring -->
+          <div class="tech-block">
+            <h3>CI/CD & Monitoring</h3>
+            <div class="icons">
+              <i class="devicon-azuredevops-plain colored" title="Azure Devops"></i>
+              <i class="devicon-githubactions-plain colored" title="Github Actions"></i>
+              <i class="devicon-jenkins-plain colored" title="Jenkins"></i>
+              <i class="devicon-grafana-plain-wordmark colored" title="Grafana"></i>
+          
+            </div>
+          </div>
+      
+          <!-- Code Quality & Security -->
+          <div class="tech-block">
+            <h3>Code Quality & Web Servers</h3>
+            <div class="icons">
+              <i class="devicon-sonarqube-plain-wordmark colored" title="SonarQube"></i>
+              <i class="devicon-apache-plain colored" title="Apache Web Server"></i>
+              <i class="devicon-nginx-original colored" title="Nginx"></i>
+            </div>
+          </div>
+      
+          
+      
+          <!-- SCM & Ticketing -->
+          <div class="tech-block">
+            <h3>SCM & Ticketing</h3>
+            <div class="icons">
+              <i class="devicon-git-plain colored" title="Git"></i>
+              <i class="devicon-jira-plain-wordmark colored" title="Jira"></i>
+              <i class="devicon-github-original colored" title="GitHub"></i>
+              <i class="devicon-gitlab-plain-wordmark colored" title="Gitlab"></i>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      
+
+
+
+
+   
+    <section id="certifications">
+      <div class="user-details">
+        <h1>Certifications</h1>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-logo">
+            <img src="./assets/img/jpg/cka_certification.jpg" alt="Kubernetes Logo" />
+          </div>
+          <div class="cert-info">
+            <h3>Certified Kubernetes Administrator (CKA)</h3>
+            <p>Certificate ID: <strong>LF-cw12ckwnwy</strong></p>
+            <a href="https://training.linuxfoundation.org/certification/verify/" target="_blank">Verify</a>
+          </div>
+        </div>
+    
+        <div class="cert-card">
+          <div class="cert-logo">
+            <img src="./assets/img/jpg/aws_solution_architect.jpg" alt="AWS Logo" />
+          </div>
+          <div class="cert-info">
+            <h3>AWS Certified Solutions Architect - Associate</h3>
+            <p>Certificate ID: <strong>K5JXLNNKGJV4QYWC</strong></p>
+            <a href="https://aws.amazon.com/verification" target="_blank">Verify</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>Featured Projects</h1>
+        <p style="text-align:center; font-style: italic; color: gray;">
+          Projects are under development. Stay tuned!
+        </p>
+      </div>
+    </section>
+
+    
+    
+
+   
+    <footer class="footer">
+      <p>&copy; Rahul Kumar, 2025</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+    <!-- Import JS: Typed Theme-->
+    <script src="./assets/js/typed.js"></script>
+    <script>
+      document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+    
+  </body>
 </html>
